@@ -1,0 +1,39 @@
+body {
+ background-image: url("../img/yellow.jpg");
+ background-repeat: no-repeat;
+ background position: center;
+ background-attachment: fixed;
+ background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ font-family: Arial;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffcc00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: silver;
+}
+textarea {
+background-color: #ffcc00;
+color: #000000;	
+}
+div{}
