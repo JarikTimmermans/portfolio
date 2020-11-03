@@ -1,10 +1,10 @@
 <!DOCTYPE html> <!-- Contact pagina waar uiteindelijk een werkend contact formulier komt die verzend naar mijn site-mail-->
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
  <head>
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
  </head>
-<body>
-	<main> 
+<body> 
 		<header style="color :#ffcc00;"> 
       <p STYLE= "font-size: 35px; font-family: monospace; text-align: center;"> Jarik Timmermans</p> 
     		<nav>
@@ -12,10 +12,33 @@
            <li><a href="index.html">Home</a></li> &nbsp;
     			 <li><a href="wie.html">Wie ben ik</a></li> &nbsp;
            <li><a href="/img/cv2.pdf/">Curriculum Vitae</a></li> &nbsp;
-           <li><a href="school.html">School Projecten</a></li> &nbsp; 
-  				 <li><a href="contact.html">Contact</a></li>
+           <li><a href="school.html">School Opdrachten</a></li> &nbsp; 
+  				 <li><a class="active" href="contact.html">Contact</a></li>
           </ul>
   			</nav>
   	</header>
-  </main>
+<!-- contact formulier-->    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<h3 style="color :#ffcc00;"> Contact formulier-NOG NIET WERKEND!</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="E-mail">E-mail adres</label>
+    <input type="text" id="E-mail" name="E-mail">
+
+    <label for="subject">Bericht</label>
+    <textarea id="subject" name="subject" placeholder="typ bericht" style="height:200px"></textarea>
+
+    <input type="submit" value="verzenden">
+  </form>
+</div>
+</main>
 </body>
+
