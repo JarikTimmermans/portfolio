@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb44acf-6cbc-4709-a48d-2ba8b370234f" name="Default Changelist" comment="Change lettertype">
+    <list default="true" id="9eb44acf-6cbc-4709-a48d-2ba8b370234f" name="Default Changelist" comment="Version: No dropdown menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/road1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/road2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/road3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programeren.html" beforeDir="false" afterPath="$PROJECT_DIR$/programeren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wie.html" beforeDir="false" afterPath="$PROJECT_DIR$/wie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +68,7 @@
       <workItem from="1603707499931" duration="607000" />
       <workItem from="1603708310240" duration="1424000" />
       <workItem from="1603710270341" duration="2000" />
+      <workItem from="1604402623880" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="Change lettertype">
       <created>1603708902120</created>
@@ -55,15 +84,34 @@
       <option name="project" value="LOCAL" />
       <updated>1603709293852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version: No dropdown menu">
+      <created>1604402670832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604402670832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change lettertype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change lettertype" />
+    <MESSAGE value="Version: No dropdown menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version: No dropdown menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="665" y="120" key="Github.ShareDialog" timestamp="1603708326375">
@@ -74,9 +122,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="615" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1603708360403" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603709326739">
+    <state x="297" y="59" key="Vcs.Push.Dialog.v2" timestamp="1604402779004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="297" y="59" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-348.864.1496@0.0.1536.824" timestamp="1604402779004" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1603709326739" />
   </component>
 </project>

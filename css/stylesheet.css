@@ -16,7 +16,8 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #ffcc00;
-  border-radius:  8px;
+  border-radius: 4px;
+  border: 1px solid black;
 }
 
 li {
@@ -29,56 +30,80 @@ li a {
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
-  border-radius:  8px;
+  border-radius:  0px;
 }
 /* veranderd de kleur bij overgaan met muis */
 li a:hover:not(.active) {
   background-color: silver;
 }
 .active {
-  background-color:#ffffb3;
-  color:black;
+  background-color:black;
+  color:white;
 }
+/* opmaak dropdown menu */
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: silver;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffcc00;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: green;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* opmaak tekstvakken */
 textarea {
-background-color: white;
-color: #000000;	
+background-color: #ffcc00;
+color:white;	
+font-family: Arial; 
+border-radius:  4px;
 }
-div{}
-textarea {
-    font-family: Arial; 
-    border-radius:  10px;
-  }
-/* opmaak contact formulier */
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  resize: vertical;
-}
-
-input[type=submit] {
+/* opmaak tabel portfolio */
+table, td {
+  border: 1px solid black;
+  color:white;
+  font-family: Arial;
   background-color: #ffcc00;
-  color: black;
-  padding: 12px 20px;
-  border: none;
+  margin:10px 0px;
   border-radius: 4px;
-  cursor: pointer;
+  text-align: center;
 }
-
-input[type=submit]:hover {
-  background-color: #45a049;
+th {
+  color:black;
+  font-family: Arial;
+  text-align: center;
 }
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+/* opmaak zichtbare pdf: CV */
+embed{
+  margin:20px 0px;
+  border-radius: 4px
 }
