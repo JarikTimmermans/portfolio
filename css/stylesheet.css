@@ -79,14 +79,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* opmaak tekstvakken */
-textarea {
-background-color: #ffcc00;
-color:white;	
-font-family: Arial; 
-border-radius:  4px;
-}
 /* opmaak tabel portfolio */
 table, td {
   border: 1px solid black;
@@ -104,6 +96,42 @@ th {
 }
 /* opmaak zichtbare pdf: CV */
 embed{
-  margin:20px 0px;
+  margin: 20px 75px;
   border-radius: 4px
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: white;
+}
+
+button[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+input, button[type=submit]:hover {
+  background-color:green;
+  color:white;
+}
+
+.container {
+  border-radius: 4px;
+  background-color: #ffcc00;
+  padding: 10px;
+  border: 1px solid black;
 }

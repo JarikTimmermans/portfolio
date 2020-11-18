@@ -1,5 +1,5 @@
 <!DOCTYPE html> <!-- Contact pagina waar uiteindelijk een werkend contact formulier komt die verzend naar mijn site-mail-->
-<html>
+<html lang="nl">
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <head>
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
@@ -17,10 +17,35 @@
               <div class="dropdown-content">
                 <a href="portfolio.html">Deze portfolio website</a>
                 <a href="programeren.html">programeren</a> 
-                <a href="****">Video Tuturial</a>
+                <a href="video.html">Video Tuturial</a>
               </div>
             </li>
   				 <li><a class="active" href="contact.html">Contact</a></li>
           </ul>
   			</nav>
   	</header>
+<!-- contact formulier-->    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<h3 style="color :#ffcc00;"> Contact formulier-NOG NIET WERKEND!</h3>
+
+<div class="container">
+  <form method="post" action="mailto:jarik-timmermans@outlook.com">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname">
+    
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="E-mail">E-mail adres</label>
+    <input type="text" id="E-mail" name="E-mail">
+
+    <label for="subject">Bericht</label>
+    <textarea id="subject" name="subject" placeholder="typ bericht" style="height:200px"></textarea>
+
+    <button type="submit" value="verzenden">Verzenden</button>
+  </form>
+</div>
+</main>
+</body>
+<footer></footer>
