@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb44acf-6cbc-4709-a48d-2ba8b370234f" name="Default Changelist" comment="Version:1 (drop menu and viseble cv)">
+    <list default="true" id="9eb44acf-6cbc-4709-a48d-2ba8b370234f" name="Default Changelist" comment="Version:2 video1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
@@ -59,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/contact.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/stylesheet.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +76,13 @@
       <workItem from="1604402623880" duration="1193000" />
       <workItem from="1605007781248" duration="1001000" />
       <workItem from="1605693798884" duration="3743000" />
-      <workItem from="1605704236245" duration="343000" />
+      <workItem from="1605704236245" duration="753000" />
+      <workItem from="1605865896283" duration="33000" />
+      <workItem from="1609235411546" duration="8071000" />
+      <workItem from="1609761894921" duration="2915000" />
+      <workItem from="1609837126529" duration="3945000" />
+      <workItem from="1609920446210" duration="664000" />
+      <workItem from="1610028518268" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="Change lettertype">
       <created>1603708902120</created>
@@ -106,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604418385506</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version:2 video">
+      <created>1605704605908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605704605908</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Version:2 video1">
+      <created>1605704842664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605704842664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,13 +148,17 @@
     <MESSAGE value="Change lettertype" />
     <MESSAGE value="Version: No dropdown menu" />
     <MESSAGE value="Version:1 (drop menu and viseble cv)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version:1 (drop menu and viseble cv)" />
+    <MESSAGE value="Version:2 video" />
+    <MESSAGE value="Version:2 video1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version:2 video1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2133" y="141" key="FileChooserDialogImpl" timestamp="1605704489295">
-      <screen x="1920" y="-348" width="864" height="1496" />
+    <state x="379" y="269" key="FileChooserDialogImpl" timestamp="1609920495405">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2133" y="141" key="FileChooserDialogImpl/0.0.1536.824/1920.-348.864.1496@1920.-348.864.1496" timestamp="1605704489295" />
+    <state x="2133" y="141" key="FileChooserDialogImpl/0.0.1536.824/1920.-348.864.1496@1920.-348.864.1496" timestamp="1605865925656" />
+    <state x="379" y="269" key="FileChooserDialogImpl/0.0.1536.824/1920.4.1536.824@0.0.1536.824" timestamp="1609920495405" />
+    <state x="379" y="269" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609236982095" />
     <state x="665" y="120" key="Github.ShareDialog" timestamp="1603708326375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -143,10 +167,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="615" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1603708360403" />
-    <state x="297" y="59" key="Vcs.Push.Dialog.v2" timestamp="1604418393496">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1970" y="-241" key="Vcs.Push.Dialog.v2" timestamp="1605704846676">
+      <screen x="1920" y="-348" width="864" height="1496" />
     </state>
     <state x="297" y="59" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-348.864.1496@0.0.1536.824" timestamp="1604418393496" />
+    <state x="1970" y="-241" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-348.864.1496@1920.-348.864.1496" timestamp="1605704846676" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1603709326739" />
     <state x="2009" y="181" key="run.anything.popup" timestamp="1605696769611">
       <screen x="1920" y="-348" width="864" height="1496" />

@@ -2,7 +2,7 @@
 body {
  background-image: url("../img/yellow.jpg");
  background-repeat: no-repeat;
- background position: center;
+ background-position: center;
  background-attachment: fixed;
  background-size: cover;
  -webkit-background-size: cover;
@@ -96,7 +96,7 @@ th {
 }
 /* opmaak zichtbare pdf: CV */
 embed{
-  margin: 20px 75px;
+  margin: center;
   border-radius: 4px
 }
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -135,3 +135,4 @@ input, button[type=submit]:hover {
   padding: 10px;
   border: 1px solid black;
 }
+
