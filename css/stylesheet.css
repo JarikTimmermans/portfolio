@@ -74,7 +74,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: green;}
+.dropdown-content a:hover {background-color: silver;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -125,7 +125,7 @@ button[type=submit] {
 }
 
 input, button[type=submit]:hover {
-  background-color:green;
+  background-color:silver;
   color:white;
 }
 
