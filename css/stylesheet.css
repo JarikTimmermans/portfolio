@@ -96,9 +96,9 @@ th {
 }
 /* opmaak zichtbare pdf: CV */
 embed{
-  margin: center;
+  align-content: center;
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 4px
 }
 
