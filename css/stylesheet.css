@@ -97,8 +97,12 @@ th {
 /* opmaak zichtbare pdf: CV */
 embed{
   margin: center;
+  width: 100%;
+  height: auto;
   border-radius: 4px
 }
+
+/* opmaak contact formulier*/
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
@@ -126,7 +130,7 @@ button[type=submit] {
 
 input, button[type=submit]:hover {
   background-color:silver;
-  color:white;
+  color:black;
 }
 
 .container {
@@ -135,4 +139,29 @@ input, button[type=submit]:hover {
   padding: 10px;
   border: 1px solid black;
 }
+/* opmaak slideshow */
+.slideshow {
+  width:100%;
+  height:auto;
+  padding:4px;
+  box-sizing:border-box;
+  position:relative;
+}
+.slideshow img {
+  position: absolute;
+  animation: slideshow 30s infinite;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+@keyframes slideshow {
+  25%{opacity: 1;
+  }
+  45%{
+    opacity: 0;
+  }
+}
+.slideshow img:nth-child(3) {animation-delay: 0s;}
+.slideshow img:nth-child(2) {animation-delay: 10s;}
+.slideshow img:nth-child(1) {animation-delay: 20s;}
 
