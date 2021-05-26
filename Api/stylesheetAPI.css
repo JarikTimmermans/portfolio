@@ -1,0 +1,9 @@
+body {background-color: #0d6efd}
+input { background-color: orangered; color:white; width: 150px}
+.input-group-text {background-color: seagreen; color:white; width:150px}
+.accordion-body {background-color: silver; color: black}
+.accordion-button {background-color: silver; color: black}
+.accordion-button:not(.collapsed) {background-color: white; color: black}
+
+
+
